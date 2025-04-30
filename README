@@ -1,0 +1,32 @@
+Para que la computadora ejecute automáticamente el script todos los jueves, necesitas usar el Programador de tareas de Windows. Te explico paso a paso:
+
+1. Abre el "Programador de tareas" de Windows:
+   - Presiona Windows + R
+   - Escribe `taskschd.msc`
+   - Presiona Enter
+
+2. En el Programador de tareas:
+   - Click en "Crear tarea básica" (panel derecho)
+   - Nombre: "Envío WhatsApp Semanal"
+   - Descripción: "Envía mensajes de WhatsApp automáticamente cada jueves"
+   - Click "Siguiente"
+
+3. Configurar el desencadenador:
+   - Selecciona "Semanalmente"
+   - Click "Siguiente"
+   - Selecciona "Jueves"
+   - Elige una hora (por ejemplo, 10:00 AM)
+   - Click "Siguiente"
+
+4. Configurar la acción:
+   - Selecciona "Iniciar un programa"
+   - Click "Siguiente"
+   - En "Programa/script" pon la ruta de tu archivo batch:
+     ```
+     C:\Users\sledezma\OneDrive - Duratex SA\Documentos\convertir-en-list\ejecutar_whatsapp.bat
+     ```
+   - Click "Siguiente" y luego "Finalizar"
+
+Con esto configurado, Windows ejecutará automáticamente tu script todos los jueves a la hora que hayas elegido, incluso si la computadora está bloqueada (pero debe estar encendida).
+
+¿Quieres que te ayude a configurarlo para una hora específica?
